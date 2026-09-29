@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
             git branch: 'main',
-                url: 'https://github.com/nairx/helloword.git'
+                url: 'https://github.com/nairx/helloworld.git'
     }
         }
         stage('Build') {
